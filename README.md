@@ -9,15 +9,20 @@ One best practice is to use HtmlWebpackPlugin, which would generate a `index.htm
 ## Usage
 install plugin
 ```shell script
-yarn add -D webpack-chunk-progress
+yar:n add -D webpack-chunk-progress
 ```
 
 add plugin to webpack config
 ```javascript
+const WebpackChunkProgress = require('webpack-chunk-progress')
+
+module.exports = {
+    //...
     plugins: [
         new WebpackChunkProgress(),
         // ...
     ]
+}
 ```
 
 where you want to load a chunk:

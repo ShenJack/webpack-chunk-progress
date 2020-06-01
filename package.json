@@ -1,8 +1,10 @@
 {
   "name": "webpack-chunk-progress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide chunk loading progress for your webpack application",
   "main": "lib/index.js",
+  "repository": "https://github.com/ShenJack/webpack-chunk-progress",
+  "homepage": "https://github.com/ShenJack/webpack-chunk-progress",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-example": "rimraf ./example/dist && cross-env NODE_ENV=production webpack --config ./example/webpack.config.js --mode production",
